@@ -21,4 +21,4 @@ const graph={
     f:[]
 };
 
-depthFirstPrint(graph,'a');   // Output -> a b d f c e
+depthFirstPrint(graph,'a');   // Output -> a c e b d f
