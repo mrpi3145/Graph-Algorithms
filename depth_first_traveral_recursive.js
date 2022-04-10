@@ -1,11 +1,6 @@
 
-const depthFirstPrint=(graph,source)=>{
+const breadthFirstPrint=(graph,source)=>{
 
-    console.log(source);
-
-    for(let neighbor of graph[source]){
-        depthFirstPrint(graph,neighbor);
-    }
 
 };
 
@@ -21,4 +16,4 @@ const graph={
     f:[]
 };
 
-depthFirstPrint(graph,'a');   // Output -> a c e b d f
+breadthFirstPrint(graph,'a');   // Output -> a c e b d f
